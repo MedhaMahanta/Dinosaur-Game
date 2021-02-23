@@ -1,0 +1,36 @@
+canvas {
+	border: 1px solid black;
+}
+
+button, div {
+	margin: 10px;
+} 
+
+
+body {
+	text-align: center;
+}
+
+p {
+	color: red;
+	font-size: 24px;
+}
+
+#startBtn {
+	font-size: 18px;
+}
+#restartBtn {
+	visibility: hidden;
+}
+
+#jumpBtn {
+	visibility: hidden;
+}
+
+#score {
+	visibility: hidden;
+}
+
+#high {
+	visibility: hidden;
+}

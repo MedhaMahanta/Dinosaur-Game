@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dinosaur Game</title>
+	<script src = "script.js"></script>
+	<link rel = "stylesheet" Href = "styles.css">
+</head>
+<body>
+	<div>
+		<button onclick="startGame()" id = "startBtn">Start</button>
+		<button onmousedown="jump(-0.15)" onmouseup="jump(0.05)" id = "jumpBtn"> Jump </button>
+		<button onclick="restartGame()" id = "restartBtn">Restart</button>
+	</div>
+	<div>
+		<p id = "tryAgain"> </p>
+	</div>
+	<div id = "score">
+		Score:
+	</div>
+	<div id = "high">
+		High Score: 
+	</div>
+</body>
+</html>
